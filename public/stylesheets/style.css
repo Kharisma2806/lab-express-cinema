@@ -4,5 +4,42 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.cinema-image {
+  position: relative;
+  text-align: center;
+}
+
+.cinema-content {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+#cinema-name {
+  font-size: 50px;
+  color: white;
+  text-align: left;
+}
+
+.btn-primary {
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  color: #4caf50;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 25px;
 }
